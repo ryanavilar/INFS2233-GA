@@ -1,0 +1,87 @@
+.logo{
+	vertical-align: middle;
+	height: 18vh;
+}
+hr{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.item>img{
+	width: 100% !important;
+	height:100% !important;
+}
+
+.logonav{
+	padding-right: 90vh;
+	padding-top: 0vh;	
+	vertical-align: middle;
+	height: 7vh;
+}
+
+nav ul li a{
+	color: black;
+}
+
+#myCarousel{
+	margin-bottom: 10vh;
+}
+
+.jumbotron{
+	height: 100vh;
+	padding-top: 10vh;
+}
+.fixed {
+	left: 0;
+	position: fixed; 
+	top: 0;  
+	z-index: 1;
+	background-color: white;
+	width: 100vw;
+}
+
+.atasbanget img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer{
+	padding-top: 5vh;
+	background-color: white;
+	color: #505966;
+	padding-bottom: 5vh;
+}
+
+.black{
+		line-height: 5vh;	
+}
+
+.black>li>a{
+		color: #505966;
+}
+
+.social{
+	padding-left:5vw;
+}
+
+.social>li>a>i{
+	font-size: 3vw;
+	color: #505966;
+}
+
+.socialize>li>a>i{
+	font-size: 3vw;
+	color: #505966;
+}
+
+.bolder{
+	  border-top: 1px solid #505966;
+}
+
+.centered-pills { text-align:center; }
+.centered-pills ul.nav-pills { display:inline-block; }
+.centered-pills li { display:inline; }
+.centered-pills a { float:left; }
+* html .centered-pills ul.nav-pills { display:inline; } /* IE6 */
+*+html .centered-pills ul.nav-pills { display:inline; } /* IE7 */
