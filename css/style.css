@@ -12,6 +12,18 @@ hr{
 	height:100% !important;
 }
 
+.sidebar>li{
+	float: none;
+}
+
+.col-img>div>a>img{
+	width: 100%;
+}
+
+.col-img{
+	padding-top: 10vh;
+}
+
 .logonav{
 	padding-right: 90vh;
 	padding-top: 0vh;	
@@ -24,7 +36,11 @@ nav ul li a{
 }
 
 #myCarousel{
-	margin-bottom: 10vh;
+	margin-bottom: 0vh;
+}
+
+.jumbotron{
+	margin-bottom: 0;
 }
 
 .jumbotron{
