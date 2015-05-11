@@ -13,7 +13,7 @@ var cityCircle;
 function initialize() {
   // Create the map.
   var mapOptions = {
-    zoom: 15,
+    zoom: 12,
     scrollwheel: false,
     center: new google.maps.LatLng(-27.4580978, 153.005685),
     mapTypeId: google.maps.MapTypeId.TERRAIN
@@ -46,7 +46,7 @@ function initialize() {
       fillOpacity: 0.1,
       map: map,
       center: citymap[city].center,
-      radius: 1000
+      radius: 15000
     };
     // Add the circle for this city to the map.
     cityCircle = new google.maps.Circle(populationOptions);
