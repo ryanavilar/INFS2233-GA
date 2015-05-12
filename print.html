@@ -47,18 +47,15 @@
 							<li><a href="index.html#Maps"><i class="fa fa-building-o"></i> Our Office</a></li>
 							<li><a href="#listen"><i class="fa fa-headphones"></i> Listen Up</a></li>
 							<li role="presentation" class="dropdown">
-								<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false"><i class="fa fa-shopping-cart"></i> Cart<span class="caret"></span>
+								<a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-expanded="false"><i class="fa fa-shopping-cart"></i> Cart <span class="simpleCart_quantity badge"></span><span class="caret"></span>
 								</a>
 								<ul class="dropdown-menu" role="menu">
-									<li><a href="#"> <div class="thumbnail">
-										<img src="Images/gallery01.jpg" alt="..."> </div> Item 1 $ 5.0</a> </li>
-										<li><a href="#"><div class="thumbnail">
-											<img src="Images/gallery02.jpg" alt="..."> </div> Item 2 $ 10.0</a></li>
-											<li><a href="#"><div class="thumbnail">
-												<img src="Images/gallery01.jpg" alt="..."> </div> Item 3 $ 5.0</a></li>
-												<li class="divider"></li>
-												<li><a href="#">Total : <strong>$ 20.00</strong></a></li>
-												<li><a href="order.html"> <u>Checkout Now</u></a></li> 
+									<div class="simpleCart_items"></div>
+									<hr>
+									<li class="simpleCart_total"></li>
+
+									<p><a href="javascript:;" class=" btn btn-primary simpleCart_checkout">Checkout</a>
+									<a href="javascript:;" class="btn btn-default simpleCart_empty">Empty</a></p>
 											</ul>
 										</div>
 										<hr>
@@ -87,176 +84,175 @@
 										<p>“Art is the most intense mode of individualism that the world has known.” - Oscar Wilde</p>
 										<div id="wrapper">
 											<div id="columns">
-												<div class="pin">
+												<div class="pin simpleCart_shelfItem">
 													<img src="Images/print/print1.jpg" />
-													<h3 class="text-center">Thumbnail label</h3><hr>
-													<p class=" text-center pricey">  AUD <strong>$50.00 </strong></p>
+													<h3 class="text-center item_name">Print0</h3><hr>
+													<p class=" text-center pricey item_price">  AUD <strong>$50.00 </strong></p>
 													<p>
 														Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 														Sed feugiat consectetur pellentesque. Nam ac elit risus, 
 														ac blandit dui. Duis rutrum porta tortor ut convallis.
 														Duis rutrum porta tortor ut convallis.
 													</p>
-													<br>
-													<p class="text-center"><a href="#" class="btn btn-primary" role="button">Add To Cart</a> <a href="#" class="btn btn-default" role="button">Buy Now</a></p>
+													<br><input type="text" value="1" class="center text-center item_Quantity"><br>
+													<p class="text-center"><a class="btn btn-primary item_add" role="button">Add To Cart</a> <a href="checkout.html" class="btn btn-default item_add" role="button">Buy Now</a></p>
 													<br>
 												</div>
 
-												<div class="pin">
+												<div class="pin simpleCart_shelfItem">
 													<img src="Images/print/print2.jpg" />
-													<h3 class="text-center">Thumbnail label</h3><hr>
-													<p class="text-center pricey">  AUD <strong>$50.00 </strong></p>
+													<h3 class="text-center item_name">Print1</h3><hr>
+													<p class="text-center pricey item_price">  AUD <strong>$50.00 </strong></p>
 													<p>
 														Donec a fermentum nisi. 
 													</p>
-													<br>
-													<p class="text-center"><a href="#" class="btn btn-primary" role="button">Add To Cart</a> <a href="#" class="btn btn-default" role="button">Buy Now</a></p>
+													<br><input type="text" value="1" class="center text-center item_Quantity"><br>
+													<p class="text-center"><a class="btn btn-primary item_add" role="button">Add To Cart</a> <a href="checkout.html" class="btn btn-default item_add" role="button">Buy Now</a></p>
 													<br>
 												</div>
 
-												<div class="pin">
+												<div class="pin simpleCart_shelfItem">
 													<img src="Images/print/print3.jpg" />
-													<h3 class="text-center">Thumbnail label</h3><hr>
-													<p class="text-center pricey">  AUD <strong>$50.00 </strong></p>
+													<h3 class="text-center item_name">Print2</h3><hr>
+													<p class="text-center pricey item_price">  AUD <strong>$50.00 </strong></p>
 													<p>
 														Nullam eget lectus augue. Donec eu sem sit amet ligula 
 														faucibus suscipit. Suspendisse rutrum turpis quis nunc 
 														convallis quis aliquam mauris suscipit.
 													</p>
 													<br>
-													<p class="text-center"><a href="#" class="btn btn-primary" role="button">Add To Cart</a> <a href="#" class="btn btn-default" role="button">Buy Now</a></p>
+													<p class="text-center"><a class="btn btn-primary" role="button">Add To Cart</a> <a href="checkout.html" class="btn btn-default item_add" role="button">Buy Now</a></p>
 													<br>
 												</div>
 
-												<div class="pin">
+												<div class="pin simpleCart_shelfItem">
 													<img src="Images/print/print4.jpg" />
-													<h3 class="text-center">Thumbnail label</h3><hr>
-													<p class="text-center pricey">  AUD <strong>$50.00 </strong></p>
+													<h3 class="text-center item_name">Print3</h3><hr>
+													<p class="text-center pricey item_price">  AUD <strong>$50.00 </strong></p>
 													<p>
 														Nullam eget lectus augue. Donec eu sem sit amet ligula 
 														faucibus suscipit. Suspendisse rutrum turpis quis nunc 
 														convallis quis aliquam mauris suscipit.
 													</p>
-													<br>
-													<p class="text-center"><a href="#" class="btn btn-primary" role="button">Add To Cart</a> <a href="#" class="btn btn-default" role="button">Buy Now</a></p>
+													<br><input type="text" value="1" class="center text-center item_Quantity"><br>
+													<p class="text-center"><a class="btn btn-primary item_add" role="button">Add To Cart</a> <a href="checkout.html" class="btn btn-default item_add" role="button">Buy Now</a></p>
 													<br>
 												</div>
 
-												<div class="pin">
+												<div class="pin simpleCart_shelfItem">
 													<img src="Images/print/print5.jpg" />
-													<h3 class="text-center">Thumbnail label</h3><hr>
-													<p class="text-center pricey">  AUD <strong>$50.00 </strong></p>
+													<h3 class="text-center item_name">Print4</h3><hr>
+													<p class="text-center pricey item_price">  AUD <strong>$50.00 </strong></p>
 													<p>
 														Donec a fermentum nisi. Integer dolor est, commodo ut 
 														sagittis vitae, egestas at augue. 
 													</p>
-													<br>
-													<p class="text-center"><a href="#" class="btn btn-primary" role="button">Add To Cart</a> <a href="#" class="btn btn-default" role="button">Buy Now</a></p>
+													<br><input type="text" value="1" class="center text-center item_Quantity"><br>
+													<p class="text-center"><a class="btn btn-primary item_add" role="button">Add To Cart</a> <a href="checkout.html" class="btn btn-default item_add" role="button">Buy Now</a></p>
 													<br>
 												</div>
 
-												<div class="pin">
+												<div class="pin simpleCart_shelfItem">
 													<img src="Images/print/print6.jpg" />
-													<h3 class="text-center">Thumbnail label</h3><hr>
-													<p class="text-center pricey">  AUD <strong>$50.00 </strong></p>
+													<h3 class="text-center item_name">Print5</h3><hr>
+													<p class="text-center pricey item_price">  AUD <strong>$50.00 </strong></p>
 													<p>
 														Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 														Sed feugiat consectetur pellentesque. Nam ac elit risus, 
 														ac blandit dui. Duis rutrum porta tortor ut convallis.
 														Duis rutrum porta tortor ut convallis.
 													</p>
-													<br>
-													<p class="text-center"><a href="#" class="btn btn-primary" role="button">Add To Cart</a> <a href="#" class="btn btn-default" role="button">Buy Now</a></p>
+													<br><input type="text" value="1" class="center text-center item_Quantity"><br>
+													<p class="text-center"><a class="btn btn-primary item_add" role="button">Add To Cart</a> <a href="checkout.html" class="btn btn-default item_add" role="button">Buy Now</a></p>
 													<br>
 												</div>	
 
-												<div class="pin">
+												<div class="pin simpleCart_shelfItem">
 													<img src="Images/print/print7.jpg" />
-													<h3 class="text-center">Thumbnail label</h3><hr>
-													<p class="text-center pricey">  AUD <strong>$50.00 </strong></p>
+													<h3 class="text-center item_name">Print6</h3><hr>
+													<p class="text-center pricey item_price">  AUD <strong>$50.00 </strong></p>
 													<p>
 														Nullam eget lectus augue. Donec eu sem sit amet ligula 
 														faucibus suscipit. Suspendisse rutrum turpis quis nunc 
 														convallis quis aliquam mauris suscipit.
 														Duis rutrum porta tortor ut convallis.
 													</p>
-													<br>
-													<p class="text-center"><a href="#" class="btn btn-primary" role="button">Add To Cart</a> <a href="#" class="btn btn-default" role="button">Buy Now</a></p>
+													<br><input type="text" value="1" class="center text-center item_Quantity"><br>
+													<p class="text-center"><a class="btn btn-primary item_add" role="button">Add To Cart</a> <a href="checkout.html" class="btn btn-default item_add" role="button">Buy Now</a></p>
 													<br>
 												</div>
 
-												<div class="pin">
+												<div class="pin simpleCart_shelfItem">
 													<img src="Images/print/print8.jpg" />
-													<h3 class="text-center">Thumbnail label</h3><hr>
-													<p class="text-center pricey">  AUD <strong>$50.00 </strong></p>
+													<h3 class="text-center item_name">Print7</h3><hr>
+													<p class="text-center pricey item_price">  AUD <strong>$50.00 </strong></p>
 													<p>
 														Nullam eget lectus augue. 
 													</p>
-													<br>
-													<p class="text-center"><a href="#" class="btn btn-primary" role="button">Add To Cart</a> <a href="#" class="btn btn-default" role="button">Buy Now</a></p>
+													<br><input type="text" value="1" class="center text-center item_Quantity"><br>
+													<p class="text-center"><a class="btn btn-primary item_add" role="button">Add To Cart</a> <a href="checkout.html" class="btn btn-default item_add" role="button">Buy Now</a></p>
 													<br>
 												</div>
 
-												<div class="pin">
+												<div class="pin simpleCart_shelfItem">
 													<img src="Images/print/print9.jpg" />
-													<h3 class="text-center">Thumbnail label</h3><hr>
-													<p class="text-center pricey">  AUD <strong>$50.00 </strong></p>
+													<h3 class="text-center item_name">Print8</h3><hr>
+													<p class="text-center pricey item_price">  AUD <strong>$50.00 </strong></p>
 													<p>
 														Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 														Sed feugiat consectetur pellentesque. 
 													</p>
-													<br>
-													<p class="text-center"><a href="#" class="btn btn-primary" role="button">Add To Cart</a> <a href="#" class="btn btn-default" role="button">Buy Now</a></p>
+													<br><input type="text" value="1" class="center text-center item_Quantity"><br>
+													<p class="text-center"><a class="btn btn-primary item_add" role="button">Add To Cart</a> <a href="checkout.html" class="btn btn-default item_add" role="button">Buy Now</a></p>
 													<br>
 												</div>
 
-												<div class="pin">
+												<div class="pin simpleCart_shelfItem">
 													<img src="Images/print/print10.jpg" />
-													<h3 class="text-center">Thumbnail label</h3><hr>
+													<h3 class="text-center item_name">Print9</h3><hr>
 
-													<p class="text-center pricey">  AUD <strong>$50.00 </strong></p>
+													<p class="text-center pricey item_price">  AUD <strong>$50.00 </strong></p>
 													<p>
 														Donec a fermentum nisi. Integer dolor est, commodo ut 
 														sagittis vitae, egestas at augue. Suspendisse id nulla 
 														ac urna vestibulum mattis. Duis rutrum porta tortor ut convallis.
 													</p>
-													<br>
-													<p class="text-center"><a href="#" class="btn btn-primary" role="button">Add To Cart</a> <a href="#" class="btn btn-default" role="button">Buy Now</a></p>
+													<br><input type="text" value="1" class="center text-center item_Quantity"><br>
+													<p class="text-center"><a class="btn btn-primary item_add" role="button">Add To Cart</a> <a href="checkout.html" class="btn btn-default item_add" role="button">Buy Now</a></p>
 													<br>
 												</div>
 
-												<div class="pin">
+												<div class="pin simpleCart_shelfItem">
 													<img src="Images/print/print11.jpg" />
-													<h3 class="text-center">Thumbnail label</h3><hr>
+													<h3 class="text-center item_name">Print10</h3><hr>
 
-													<p class="text-center pricey">  AUD <strong>$50.00 </strong></p>
+													<p class="text-center pricey item_price">  AUD <strong>$50.00 </strong></p>
 													<p>
 														Donec a fermentum nisi. Integer dolor est, commodo ut 
 														sagittis vitae, egestas at augue. Suspendisse id nulla 
 														ac urna vestibulum mattis. 
 													</p>
-													<br>
-													<p class="text-center"><a href="#" class="btn btn-primary" role="button">Add To Cart</a> <a href="#" class="btn btn-default" role="button">Buy Now</a></p>
+													<br><input type="text" value="1" class="center text-center item_Quantity"><br>
+													<p class="text-center"><a class="btn btn-primary item_add" role="button">Add To Cart</a> <a href="checkout.html" class="btn btn-default item_add" role="button">Buy Now</a></p>
 													<br>
 												</div>
 
-												<div class="pin">
+												<div class="pin simpleCart_shelfItem">
 													<img src="Images/print/print12.jpg" />
-													<h3 class="text-center">Thumbnail label</h3><hr>
-													<p class="text-center pricey">  AUD <strong>$50.00 </strong></p>
+													<h3 class="text-center item_name">Print11</h3><hr>
+													<p class="text-center pricey item_price">  AUD <strong>$50.00 </strong></p>
 													<p>
 														Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
 														Sed feugiat consectetur pellentesque. Nam ac elit risus, 
 														ac blandit dui. Duis rutrum porta tortor ut convallis.
 													</p>
-													<br>
-													<p class="text-center"><a href="#" class="btn btn-primary" role="button">Add To Cart</a> <a href="#" class="btn btn-default" role="button">Buy Now</a></p>
+													<br><input type="text" value="1" class="center text-center item_Quantity"><br>
+													<p class="text-center"><a class="btn btn-primary item_add" role="button">Add To Cart</a> <a href="checkout.html" class="btn btn-default item_add" role="button">Buy Now</a></p>
 													<br>
 												</div>	
 
 											</div>
 										</div>
-
 									</div>
 								</div>
 							</div>
@@ -314,10 +310,13 @@
 
 
 							<!-- Bootstrap Javascript -->
+<script src="js/jquery-1.11.2.min.js"></script>
+						<script src="js/bootstrap.min.js"></script>
+													<script type="text/javascript" src="js/simpleCart.js"></script>
+							<script type="text/javascript" src="js/simpleCart.js"></script>
+							<script type="text/javascript" src="js/cart.js"></script>
 
-							<script src="js/jquery-1.11.2.min.js"></script>
-							<script src="js/bootstrap.min.js"></script>
-							<script type="text/javascript" src="js/fixednav.js"></script>
-							<script src="js/smooth.js" type="text/javascript"></script>
+						<script type="text/javascript" src="js/fixednav.js"></script>
+						<script src="js/smooth.js" type="text/javascript"></script>
 						</body>
 						</html>

@@ -1,3 +1,8 @@
+
+function printIt() {
+    window.print();
+}
+
 // Can also be used with $(document).ready()
 $(window).load(function() {
   $('.flexslider').flexslider({
@@ -9,4 +14,5 @@ $(window).load(function() {
     maxItems: 4
   });
 });
+
 

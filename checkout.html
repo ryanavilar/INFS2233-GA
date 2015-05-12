@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Bootstrap Css -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/flexslider.css">
+
+
+
+	<link rel="icon" 
+	type="Image/png" 
+	href="Images/Lolalogo.png">
+	<title> Lola Collective  | Checkout Page</title>
+</head>
+<body>
+	<header>
+		<div class="container">
+			
+			<div class="row atasbanget">
+				<a href="index.html"><img class="logo" src="Images/Lolalogo.png"></a>
+				<h1 class="text-center"> Lola Collective </h1>
+				<h2 class="text-center"> Checkout Page</h2>
+			</div>
+		</div>
+		<hr>
+	</header>
+	<br>
+	<div class="result container">
+		<div class="simpleCart_items"></div><br>
+		<div class="row">
+			<div class="col-md-2 col-md-offset-8 text-left">
+				<p> Total Items : </p>
+				<p> Total Price : </p>
+				<p> Shipping / Delivery : </p>
+			</div>
+
+			<div class="col-md-2 text-right">
+				<p class="simpleCart_quantity">  </p>
+				<p class="simpleCart_total"> </p>
+				<select name="shipping method" form="carform">
+					<option value="deliver">Next Business Day Delivery</option>
+					<option value="COD">Pick up From Lola HQ</option>
+					<option value="ship">Freight and Shipping</option>
+				</select>
+				<br>
+				<br>
+				<p><button onclick="printIt()" class=" btn btn-primary simpleCart_checkout">Print</button>
+					<a href="index.html" class="btn btn-default">Back</a></p>
+				</div>
+			</div>
+		</div>
+		<!-- Bootstrap Javascript -->
+
+		<script src="js/jquery-1.11.2.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
+		<script src="js/maps.js"></script>
+		<script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+		<script type="text/javascript" src="js/jquery.flexslider.js"></script>
+		<script type="text/javascript" src="js/simpleCart.js"></script>
+		<script type="text/javascript" src="js/simpleCart.js"></script>
+		<script type="text/javascript" src="js/cart.js"></script>
+		<script type="text/javascript" src="js/addition.js"></script>
+		<script type="text/javascript" src="js/fixednav.js"></script>
+		<script src="js/smooth.js" type="text/javascript"></script>
+	</body>
+	</html>

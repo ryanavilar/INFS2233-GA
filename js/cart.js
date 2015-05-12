@@ -1,26 +1,31 @@
 simpleCart({
-	// array representing the format and columns of the cart,
-	// see the cart columns documentation
-	cartColumns: [
-		{ attr: "name", label: false},
-		{ view: "currency", attr: "price", label: "Price"},
-		{view:'image' , attr:'thumb', label: false},
-		{ view: "decrement", label: false},
-		{ attr: "quantity", label: "Qty"},
-		{ view: "increment", label: false},
-		{ view: "currency", attr: "total", label: "SubTotalah" },
-		{ view: "remove", text: "Remove", label: false}
-	],
+
 
 	// "div" or "table" - builds the cart as a 
 	// table or collection of divs
 	cartStyle: "div", 
 
+
+	// array representing the format and columns of the cart,
+	// see the cart columns documentation
+	cartColumns: [
+	{ attr: "name", label: "Name"},
+	{ view: "currency", attr: "price", label: "Price"},
+	{ view: "decrement", label: false},
+	{ attr: "quantity", label: "Qty"},
+	{ view: "increment", label: false},
+	{ view: "currency", attr: "total", label: "SubTotal" },
+	{ view: "remove", text: "Remove", label: false}
+	],
+
+	
+
 	// how simpleCart should checkout, see the 
 	// checkout reference for more info 
 	checkout: { 
 		type: "SendForm" , 
-		url: "http://example.com/your/custom/checkout/url" 
+		url: "checkout.html",
+		   method: "GET"  
 	},
 
 	// set the currency, see the currency 
@@ -70,5 +75,8 @@ simpleCart({
 	checkoutSuccess	: null,
 	checkoutFail		: null,
 	beforeCheckout		: null,
-        beforeRemove           : null
+	beforeRemove           : null
+
+    
+
 });

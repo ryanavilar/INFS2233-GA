@@ -7,6 +7,99 @@
 	height: 80%;
 }
 
+.center{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+
+}
+
+
+.headerRow>div{
+	display: inline-block;
+}
+
+.dropdown-menu{
+	overflow: auto;
+	max-height:300px;
+}
+
+.itemRow>.item-name{
+	margin-right: 10px;
+	width: 120px;
+}
+.headerRow>.item-name{
+	margin-left: 10px;
+	margin-right: 20px;
+	width: 100px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.itemRow>.item-total{
+	margin-left: 15px;
+	margin-right: 15px;
+	width: 50px;
+	text-align: center;
+}
+
+.headerRow>.item-total{
+	margin-left: 22px;
+	margin-right: 15px;
+	width: 50px;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+ .itemRow>.item-price{
+	margin-left: 10px;
+	width: 50px;
+	margin-right: 10px;
+	text-align: center;
+}
+
+.headerRow>.item-quantity{
+	margin-left: 15px;
+	margin-right: 15px;
+	width: 10px;
+	font-weight: bold;	
+}
+
+.itemRow>.item-quantity{
+	margin-left: 10px;
+	margin-right: 10px;
+	width: 10px;
+}
+
+.headerRow>.item-price{
+	margin-left: 15px;
+	margin-right: 15px;
+	text-align: center;
+	width: 30px;
+
+	font-weight: bold;	
+}
+
+.item-decrement,.item-increment,.item-remove{
+	text-align: center;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+
+.simpleCart_items{
+	width: 350px;
+
+}
+
+.itemRow{
+	border-bottom: 1px solid #ccc;
+}
+.itemRow>div{
+	display: inline-block;
+}
+
 .small>li>a>img{
 	height: 35vh !important;
 }
@@ -93,7 +186,7 @@ h1,h2,h3{
 	font-family: "Modern Serif Eroded";
 }
 
-p,a{
+p,a,div{
 	font-family: "American Typewriter";
 }
 
@@ -146,6 +239,19 @@ p,a{
 	padding-top: 0vh;	
 	vertical-align: middle;
 	height: 7vh;
+}
+/* Result Checkout */
+.result>.simpleCart_items{
+	width: 100% !important;
+}
+
+.result>.simpleCart_items>div>div>.headerRow>div,.result>.simpleCart_items>div>.itemRow>div{
+	width: 14% !important;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 1%;
+	margin-bottom: 1%;
+	text-align: center;
 }
 
 nav ul li a{
