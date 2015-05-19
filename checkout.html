@@ -35,7 +35,36 @@
 	<div class="result container">
 		<div class="simpleCart_items"></div><br>
 		<div class="row">
-			<div class="col-md-2 col-md-offset-8 text-left">
+			<div class="col-md-4">
+				<div id="show" class="hidden">
+					<h4>First Name :</h4>
+					<p id="firstName">  </p>
+					<h4>Last Name :</h4>
+					<p id="lastName">  </p>
+					<h4>Telephone / Email :</h4>
+					<p id="contact">  </p>
+					<h4>Address :</h4>
+					<p id="Address">  </p>
+					<p><a onclick="edit()" class=" btn btn-primary">Edit</a></p>
+				</div>
+
+				<form id="form">
+					<label>First Name : </label><br>
+					<input type="text" name="firstname" size="30">
+					<br>
+					<label>Last Name : </label><br>
+					<input type="text" name="lastname" size="30">
+					<br>
+					<label>Telephone Number/ Email : </label>
+					<input type="text" name="contact" size="30">
+					<br>
+					<label>Address : </label><br>
+					<textarea cols="28" rows="5" name="address"></textarea> 
+					<br>
+					<p><a onclick="save()" class=" btn btn-primary">Save</a></p>
+				</form>
+			</div>
+			<div class="col-md-2 col-md-offset-4 text-left">
 				<p> Total Items : </p>
 				<p> Total Price : </p>
 				<p> Shipping / Delivery : </p>
