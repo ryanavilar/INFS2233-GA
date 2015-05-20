@@ -124,7 +124,6 @@ hr{
 	-webkit-column-fill: auto;
 	-moz-column-count: 2;
 	-moz-column-gap: 10px;
-	-moz-column-fill: auto;
 	column-count: 2;
 }
 
